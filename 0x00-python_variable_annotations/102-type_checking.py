@@ -6,7 +6,7 @@ number of times
 from typing import List, Tuple
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Zoom in on the array by repeating each element a specified
     number of times.
